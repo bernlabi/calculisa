@@ -120,13 +120,14 @@ function startGame() {
   number1.textContent = num1;
   number2.textContent = num2;
   // multiplications.multiply(num1, num2);
-  if (lastScore !== null && lastAttempts !== null) {
+  // if (lastScore !== null && lastAttempts !== null) {
+     if (lastAttempts !== null || lastAttempts !== 0) {
     return;
-  } //else {
-    //alert(
-     // 'Welcome to Multipliz! Try to get as many correct answers as possible!'
-    //);
-  //}
+  } else {
+    alert(
+      'Welcome to Multipliz! Try to get as many correct answers as possible!'
+    );
+  }
 }
 
 function generateProblem() {
@@ -178,7 +179,7 @@ function incrementScore() {
 
 function incrementAttempts() {
   attempts++;
-  if (attempts === 10 {
+  if (attempts === 10) {
     updateScore();
     localStorage.setItem('finalScore', score);
     localStorage.setItem('totalAttempts', attempts);
