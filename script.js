@@ -121,6 +121,7 @@ function startGame() {
   number2.textContent = num2;
   // multiplications.multiply(num1, num2);
   // if (lastScore !== null && lastAttempts !== null) {
+  console.log("last Attempts: ", lastAttempts);
      if (lastAttempts !== null || lastAttempts !== 0) {
     return;
   } else {
