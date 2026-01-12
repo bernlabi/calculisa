@@ -1,0 +1,100 @@
+.container {
+  margin: auto;
+  display: flex;
+  width: 80%;
+  height: 80%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #daf075;
+}
+
+h1 {
+  text-align: center;
+  color: #047e0c;
+  margin-top: 20px;
+  font-size: 300%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  color: #111;
+  opacity: 120%;
+}
+
+#main {
+  background-color: #fff;
+  height: 100%;
+  color: rgb(106, 182, 13);
+  font-size: xx-large;
+}
+
+#number1,
+#number2 {
+  color: rgb(56, 56, 244);
+}
+
+.btn {
+  font-size: large;
+
+  padding: 10px;
+  background-color: rgb(216, 120, 235);
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+#startBtn {
+  margin: 10px 0 20px 10px;
+  align-self: center;
+}
+.checkBtn {
+  margin: 10px auto 0 40px;
+  justify-self: center;
+  align-self: center;
+  background-color: rgb(223, 92, 11);
+  width: 80%;
+}
+
+.problem {
+  display: inline-block;
+  margin-left: 20px;
+  height: 50%;
+}
+
+#answer {
+  font-size: xx-large;
+  width: 100px;
+  text-align: center;
+  margin: 0 50px;
+  color: rgb(255, 60, 92);
+}
+
+#feedback {
+  font-size: x-large;
+  color: rgb(237, 130, 6);
+  height: 30px;
+  text-align: center;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  margin: 15px 0 15px;
+}
+
+#score {
+  font-size: x-large;
+  color: rgb(3, 135, 133);
+  margin-bottom: 20px;
+  text-align: center;
+  padding-bottom: 10px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#lastResults {
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: large;
+  color: rgb(4, 125, 28);
+  margin: 10px 0;
+  text-align: center;
+  background-color: #fff;
+  padding: 10px;
+  border: 2px solid orange;
+}

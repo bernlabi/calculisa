@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculis</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Calculis</h1>
+
+      <div id="lastResults"></div>
+      <div id="main">
+        <input type="button" class="btn" id="startBtn" value="Start Here" />
+
+        <br />
+        <section class="problem">
+          <div id="number1" class="problem"></div>
+          <div id="operator" class="problem"></div>
+          <div id="number2" class="problem"></div>
+          <div id="equals" class="problem">=</div>
+        </section>
+        <input type="text" id="answer" />
+        <input
+          type="button"
+          class="btn checkBtn"
+          value="Check Answer"
+          onclick="checkAnswer()"
+        />
+        <div id="feedback"></div>
+        <div id="score"></div>
+      </div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
