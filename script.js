@@ -122,11 +122,11 @@ function startGame() {
   // multiplications.multiply(num1, num2);
   if (lastScore !== null && lastAttempts !== null) {
     return;
-  } else {
-    alert(
-      'Welcome to Multipliz! Try to get as many correct answers as possible!'
-    );
-  }
+  } //else {
+    //alert(
+     // 'Welcome to Multipliz! Try to get as many correct answers as possible!'
+    //);
+  //}
 }
 
 function generateProblem() {
