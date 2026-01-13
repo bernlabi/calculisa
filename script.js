@@ -87,15 +87,15 @@ function startGame() {
 
   switch (generateProblem()) {
     case 1:
-      console.log(problem);
+    
       operatorDisplay.textContent = '+';
       num1 = generateRandomNumber(999);
       num2 = generateRandomNumber(999);
       additions.add(num1, num2);
-      console.log(additions.add(num1, num2));
+      
       break;
     case 2:
-      console.log(problem);
+      
       operatorDisplay.textContent = '-';
       num1 = generateRandomNumber(999);
       num2 = generateRandomNumber(999);
@@ -103,15 +103,15 @@ function startGame() {
         [num1, num2] = [num2, num1];
       }
       substractions.substract(num1, num2);
-      console.log(substractions.substract(num1, num2));
+      
       break;
     case 3:
-      console.log(problem);
+      
       operatorDisplay.textContent = 'x';
       num1 = generateRandomNumber(5);
       num2 = generateRandomNumber(5);
       multiplications.multiply(num1, num2);
-      console.log(multiplications.multiply(num1, num2));
+      
       break;
     default:
       console.log('Something went wrong!!');
@@ -127,7 +127,7 @@ function generateProblem() {
 }
 
 function checkAnswer() {
-  console.log('value= ', typeof answerInput.value);
+  
   if (answerInput.value != '' || answerInput.value != null) {
     if (
       answerInput.value ==
