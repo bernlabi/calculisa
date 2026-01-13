@@ -170,7 +170,7 @@ function incrementScore() {
 
 function incrementAttempts() {
   attempts++;
-  if (attempts === 5) {
+  if (attempts === 10) {
     updateScore();
     localStorage.setItem('finalScore', score);
     localStorage.setItem('totalAttempts', attempts);
