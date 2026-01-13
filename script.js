@@ -108,8 +108,8 @@ function startGame() {
     case 3:
       
       operatorDisplay.textContent = 'x';
-      num1 = generateRandomNumber(5) + 1;
-      num2 = generateRandomNumber(5) + 1;
+      num1 = generateRandomNumber(6);
+      num2 = generateRandomNumber(6);
       multiplications.multiply(num1, num2);
       
       break;
