@@ -102,4 +102,6 @@ h2 {
 .maintenance{
   color: #42f5b6;
   background-color: rgb(3, 135, 133);
+  padding:  40px;
+  margin: 50px;
 }
