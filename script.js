@@ -172,12 +172,14 @@ function checkAnswer() {
         )
     ) {
       feedback.textContent = 'Correct!';
+      feedback.style.color = 'green';
       incrementScore();
       incrementAttempts();
       updateScore();
       startGame();
     } else {
       feedback.textContent = 'Incorrect. Try again!';
+      feedback.style.color = 'red';
       incrementAttempts();
       updateScore();
       answerInput.value = '';
