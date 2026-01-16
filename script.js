@@ -124,6 +124,8 @@ function startGame() {
       break;
 
     case 3:
+    case 4:
+    case 5:
       operatorDisplay.textContent = 'x';
 
       num1 = generateRandomNumber(11);
@@ -147,7 +149,7 @@ function startGame() {
 
 // ** Generate Problem Type ***********
 function generateProblem() {
-  problem = Math.floor(Math.random() * 3 + 1);
+  problem = Math.floor(Math.random() * 5 + 1);
   return problem;
 }
 
