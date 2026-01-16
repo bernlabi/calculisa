@@ -71,6 +71,8 @@ h2 {
   text-align: center;
   margin: 0 50px;
   color: rgb(255, 60, 92);
+  border: 2px solid #ccc;
+  border-radius: 5px;
 }
 
 #feedback {
