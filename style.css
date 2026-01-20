@@ -47,9 +47,20 @@ h2 {
   border-radius: 5px;
   cursor: pointer;
 }
+
+.selectLabel {
+  font-size: large;
+  margin: auto 5px auto 20px;
+}
+
+.selector {
+  margin: 10px 40px 10px 0;
+}
+
 #startBtn {
   margin: 10px 0 20px 10px;
   align-self: center;
+  width: 100px;
 }
 .checkBtn {
   margin: 10px auto 0 40px;
