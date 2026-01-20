@@ -57,8 +57,16 @@ h2 {
   margin: 10px 40px 10px 0;
 }
 
+#operation {
+  background-color: rgb(126, 97, 242);
+  color: #fff;
+  border-radius: 10px;
+  font-size: large;
+  padding: 5px;
+}
+
 #startBtn {
-  margin: 10px 0 20px 10px;
+  margin: 10px;
   align-self: center;
   width: 100px;
 }
