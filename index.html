@@ -12,7 +12,21 @@
 
       <div id="lastResults"></div>
       <div id="main">
-        <input type="button" class="btn" id="startBtn" value="Start Here" />
+        <selector class="selector">
+          <label for="operation" class="selectLabel">Your choice --></label>
+          <select id="operation" name="operation">
+            <option value="">--Please choose an option--</option>
+            <option value="addition" id="addition">Addition (+)</option>
+            <option value="subtraction" id="subtraction">
+              Subtraction (-)
+            </option>
+            <option value="multiplication" id="multiplicatio">
+              Multiplication (x)
+            </option>
+            <option value="random" id="random">Random (?)</option>
+          </select>
+        </selector>
+        <input type="button" class="btn" id="startBtn" value="Start" />
 
         <br />
         <section class="problem">
